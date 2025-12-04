@@ -3,7 +3,8 @@ FROM python:3.11-slim
 
 # تعيين متغيرات البيئة
 ENV PYTHONUNBUFFERED 1
-ENV DJANGO_SETTINGS_MODULE=trading_backend.settings
+# (جديد) إضافة مجلد العمل الحالي إلى مسار Python لتمكين الاستيراد
+ENV PYTHONPATH=/usr/src/app
 
 # تعيين مجلد العمل في الحاوية
 WORKDIR /usr/src/app
@@ -15,5 +16,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # نسخ باقي ملفات المشروع إلى مجلد العمل
 COPY . .
 
-# تشغيل الخادم
-CMD ["gunicorn", "--bind", "0.0.0.0:8080", "trading_backend.config.wsgi"]
+# تشغيل الخادم مع تحديد WSGI والإعدادات
+# ملاحظة: المسار الصحيح هو trading_backend.config.wsgi
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "trading_backend.config.wsgi:application"]
