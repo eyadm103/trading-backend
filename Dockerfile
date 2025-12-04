@@ -1,1 +1,10 @@
-"FROM python:3.10-slim`n`nENV PYTHONUNBUFFERED 1`n`nENV PYTHONPATH=/usr/src/app`n`nWORKDIR /usr/src/app`n`nCOPY requirements.txt .`nRUN pip install --no-cache-dir -r requirements.txt`n`nCOPY . ." | Out-File -Encoding UTF8 Dockerfile
+FROM python:3.10-slim
+
+WORKDIR /usr/src/app/trading_backend
+
+COPY requirements.txt /usr/src/app/
+RUN pip install --no-cache-dir -r /usr/src/app/requirements.txt
+
+COPY . /usr/src/app/
+
+CMD ["gunicorn", "config.wsgi:application", "--bind", "0.0.0.0:${PORT}"]
