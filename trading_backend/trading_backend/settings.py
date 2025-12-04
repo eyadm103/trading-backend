@@ -21,8 +21,9 @@ DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 # (5) تعديل المضيفين المسموحين (ALLOWED_HOSTS)
 # هذا يسمح لخادم Railway بالوصول إلى موقعك
-ALLOWED_HOSTS = ['127.0.0.1', '.railway.app']
-
+# (5) تعديل المضيفين المسموحين (ALLOWED_HOSTS)
+# هذا يسمح لخادم Railway بالوصول إلى موقعك
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 INSTALLED_APPS = [

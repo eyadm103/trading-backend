@@ -1,2 +1,2 @@
-web: gunicorn trading_backend.wsgi --env DJANGO_SETTINGS_MODULE=trading_backend.settings --log-file -
+web: gunicorn --bind 0.0.0.0:8080 trading_backend.wsgi
 worker: python live_trade_runner.py
