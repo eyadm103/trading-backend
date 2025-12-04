@@ -16,4 +16,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # تشغيل الخادم
-CMD ["gunicorn", "--bind", "0.0.0.0:8080", "trading_backend.wsgi"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "trading_backend.config.wsgi"]

@@ -22,6 +22,6 @@ sys.path.append(str(current_path.parent))
 # -----------------------------------------------------------------
 
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'trading_backend.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 
 application = get_wsgi_application()
