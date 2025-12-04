@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:8080 trading_backend.config.wsgi:application
+web: gunicorn --env DJANGO_SETTINGS_MODULE=trading_backend.config.settings trading_backend.config.wsgi:application --bind 0.0.0.0:8080
