@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:8080 config.wsgi:application
+web: gunicorn --bind 0.0.0.0:8080 trading_backend.config.wsgi:application

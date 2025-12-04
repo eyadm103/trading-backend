@@ -2,9 +2,9 @@ FROM python:3.10-slim
 
 ENV PYTHONUNBUFFERED 1
 
-WORKDIR /usr/src/app/trading_backend
+WORKDIR /usr/src/app
 
-COPY requirements.txt /usr/src/app/
-RUN pip install --no-cache-dir -r /usr/src/app/requirements.txt
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . /usr/src/app/
+COPY . .
