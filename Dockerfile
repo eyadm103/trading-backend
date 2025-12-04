@@ -1,10 +1,13 @@
 FROM python:3.10-slim
 
-WORKDIR /usr/src/app/trading_backend
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONPATH=/usr/src/app
 
-COPY requirements.txt /usr/src/app/
-RUN pip install --no-cache-dir -r /usr/src/app/requirements.txt
+WORKDIR /usr/src/app
 
-COPY . /usr/src/app/
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["gunicorn", "config.wsgi:application", "--bind", "0.0.0.0:${PORT}"]
+COPY . .
+
+CMD ["gunicorn", "trading_backend.config.wsgi:application", "--bind", "0.0.0.0:8080"]

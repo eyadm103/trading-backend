@@ -1,1 +1,1 @@
-'web: gunicorn --env DJANGO_SETTINGS_MODULE=trading_backend.config.settings trading_backend.config.wsgi:application --bind 0.0.0.0:8080' | Out-File -Encoding UTF8 Procfile
+web: gunicorn trading_backend.config.wsgi:application --bind 0.0.0.0:8080
