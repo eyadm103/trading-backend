@@ -1,0 +1,960 @@
+[2025-08-19 19:55:48] ✅ Model loaded.
+[2025-08-19 19:55:48] --- Live Trading Started (Paper) ---
+[2025-08-19 19:55:48] Symbol: NVDA | Qty per order: 1
+[2025-08-19 19:56:00] ⚠️ Fetch/feature error (try 1/5): HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/NVDA/bars?timeframe=1Min&adjustment=raw&limit=200 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021B2F7789D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2025-08-19 19:56:21] ⚠️ Fetch/feature error (try 2/5): HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/NVDA/bars?timeframe=1Min&adjustment=raw&limit=200 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021B2F778B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2025-08-19 19:56:42] ⚠️ Fetch/feature error (try 3/5): HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v2/stocks/NVDA/bars?timeframe=1Min&adjustment=raw&limit=200 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021B2F7782E0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2025-08-19 19:56:53] 🔮 Model -> BUY @ NVDA (close=182.47)
+[2025-08-19 19:56:54] POST /v2/orders [BUY] -> HTTP 200 | {'id': '9d2d82e0-e330-46db-bc7a-14bdb63807af', 'client_order_id': '6384b955-cd56-43c9-93aa-cbfb55c96285', 'created_at': '2025-08-19T16:56:53.931533103Z', 'updated_at': '2025-08-19T16:56:53.932640853Z', 'submitted_at': '2025-08-19T16:56:53.931533103Z', 'filled_at': None, 'expired_at': None, 'canceled_at': None, 'failed_at': None, 'replaced_at': None, 'replaced_by': None, 'replaces': None, 'asset_id': '4ce9353c-66d1-46c2-898f-fce867ab0247', 'symbol': 'NVDA', 'asset_class': 'us_equity', 'notional': None, 'qty': '1', 'filled_qty': '0', 'filled_avg_price': None, 'order_class': '', 'order_type': 'market', 'type': 'market', 'side': 'buy', 'position_intent': 'buy_to_open', 'time_in_force': 'day', 'limit_price': None, 'stop_price': None, 'status': 'pending_new', 'extended_hours': False, 'legs': None, 'trail_percent': None, 'trail_price': None, 'hwm': None, 'subtag': None, 'source': None, 'expires_at': '2025-08-19T20:00:00Z'}
+[2025-08-19 20:01:37] ✅ Model loaded.
+[2025-08-19 20:01:37] --- Live Trading Started (Paper) ---
+[2025-08-19 20:01:37] Symbol: NVDA | Qty per order: 1
+[2025-08-19 20:01:39] ⚠️ Fetch/feature error (try 1/5): The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-08-19 20:01:52] ⚠️ Fetch/feature error (try 2/5): The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-08-19 20:02:03] ⚠️ Fetch/feature error (try 3/5): The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-08-19 20:03:49] ✅ Model loaded.
+[2025-08-19 20:03:49] --- Live Trading Started (Paper) ---
+[2025-08-19 20:03:49] Symbol: NVDA | Qty per order: 1
+[2025-08-19 20:03:50] ⚠️ Fetch/feature error (try 1/5): The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-08-19 20:04:00] ⚠️ Fetch/feature error (try 2/5): The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2025-08-19 20:04:30] ✅ Model loaded.
+[2025-08-19 20:04:30] --- Live Trading Started (Paper) ---
+[2025-08-19 20:04:30] Symbol: NVDA | Qty per order: 1
+[2025-08-19 20:04:38] ⚠️ Fetch/feature error (try 1/5): 'close'
+[2025-08-19 20:04:49] ⚠️ Fetch/feature error (try 2/5): 'close'
+[2025-08-19 20:04:59] ⚠️ Fetch/feature error (try 3/5): 'close'
+[2025-08-19 20:05:10] ⚠️ Fetch/feature error (try 4/5): 'close'
+[2025-08-19 20:05:20] ⚠️ Fetch/feature error (try 5/5): 'close'
+[2025-08-19 20:05:20] ❌ مفيش داتا صالحة دلوقتي.
+[2025-08-19 20:07:33] ✅ Model loaded.
+[2025-08-19 20:07:33] --- Live Trading Started (Paper) ---
+[2025-08-19 20:07:33] Symbol: NVDA | Qty per order: 1
+[2025-08-19 20:07:34] ⚠️ Fetch/feature error (try 1/5): 'tuple' object has no attribute 'lower'
+[2025-08-19 20:07:46] ⚠️ Fetch/feature error (try 2/5): 'tuple' object has no attribute 'lower'
+[2025-08-19 20:08:06] ⚠️ Fetch/feature error (try 3/5): Not enough minute bars from yfinance.
+[2025-08-19 20:08:24] ⚠️ Fetch/feature error (try 4/5): 'tuple' object has no attribute 'lower'
+[2025-08-19 20:08:35] ⚠️ Fetch/feature error (try 5/5): 'tuple' object has no attribute 'lower'
+[2025-08-19 20:08:35] ❌ مفيش داتا صالحة دلوقتي.
+[2025-08-19 20:12:04] ✅ Model loaded.
+[2025-08-19 20:12:04] --- Live Trading Started (Paper) ---
+[2025-08-19 20:12:04] Symbol: NVDA | Qty per order: 1
+[2025-08-19 20:12:06] ⚠️ Fetch/feature error (try 1/5): "Missing required columns from yfinance. Got: ['nvda', 'nvda', 'nvda', 'nvda', 'nvda', 'nvda']"
+[2025-08-19 20:12:26] ⚠️ Fetch/feature error (try 2/5): Empty DataFrame from yfinance.
+[2025-08-19 20:12:38] ⚠️ Fetch/feature error (try 3/5): "Missing required columns from yfinance. Got: ['nvda', 'nvda', 'nvda', 'nvda', 'nvda', 'nvda']"
+[2025-08-19 20:12:48] ⚠️ Fetch/feature error (try 4/5): "Missing required columns from yfinance. Got: ['nvda', 'nvda', 'nvda', 'nvda', 'nvda', 'nvda']"
+[2025-08-19 20:12:59] ⚠️ Fetch/feature error (try 5/5): "Missing required columns from yfinance. Got: ['nvda', 'nvda', 'nvda', 'nvda', 'nvda', 'nvda']"
+[2025-08-19 20:12:59] ❌ مفيش داتا صالحة دلوقتي.
+[2025-08-19 20:13:57] ✅ Model loaded.
+[2025-08-19 20:13:57] --- Live Trading Started (Paper) ---
+[2025-08-19 20:13:57] Symbol: NVDA | Qty per order: 1
+[2025-08-19 20:14:08] ⚠️ Fetch/feature error (try 1/5): Not enough minute bars from yfinance.
+[2025-08-19 20:16:13] ✅ Model loaded.
+[2025-08-19 20:16:13] --- Live Trading Started (Paper) ---
+[2025-08-19 20:16:13] Symbol: NVDA | Qty per order: 1
+[2025-08-19 20:16:15] 🔮 Model -> SELL @ NVDA (close=176.11)
+[2025-08-19 20:16:15] ℹ️ SELL signal بس مفيش بوزيشن مفتوح نبيعه.
+[2025-08-19 20:21:16] 🔮 Model -> SELL @ NVDA (close=176.12)
+[2025-08-19 20:21:16] ℹ️ SELL signal بس مفيش بوزيشن مفتوح نبيعه.
+[2025-08-19 20:26:26] ⚠️ Fetch/feature error (try 1/5): Not enough minute bars from yfinance.
+[2025-08-19 20:26:37] 🔮 Model -> SELL @ NVDA (close=176.35)
+[2025-08-19 20:26:37] ℹ️ SELL signal بس مفيش بوزيشن مفتوح نبيعه.
+[2025-08-19 20:31:37] 🔮 Model -> SELL @ NVDA (close=176.79)
+[2025-08-19 20:31:38] ℹ️ SELL signal بس مفيش بوزيشن مفتوح نبيعه.
+[2025-08-19 20:36:38] 🔮 Model -> SELL @ NVDA (close=176.93)
+[2025-08-19 20:36:39] ℹ️ SELL signal بس مفيش بوزيشن مفتوح نبيعه.
+[2025-08-19 20:41:39] 🔮 Model -> SELL @ NVDA (close=176.94)
+[2025-08-19 20:41:40] ℹ️ SELL signal بس مفيش بوزيشن مفتوح نبيعه.
+[2025-08-19 20:46:50] ⚠️ Fetch/feature error (try 1/5): Not enough minute bars from yfinance.
+[2025-08-19 20:47:10] ⚠️ Fetch/feature error (try 2/5): Not enough minute bars from yfinance.
+[2025-08-19 20:47:22] 🔮 Model -> SELL @ NVDA (close=176.80)
+[2025-08-19 20:47:24] ℹ️ SELL signal بس مفيش بوزيشن مفتوح نبيعه.
+[2025-08-19 20:52:25] 🔮 Model -> SELL @ NVDA (close=176.73)
+[2025-08-19 20:52:25] ℹ️ SELL signal بس مفيش بوزيشن مفتوح نبيعه.
+[2025-08-19 20:57:26] 🔮 Model -> SELL @ NVDA (close=177.06)
+[2025-08-19 20:57:26] ℹ️ SELL signal بس مفيش بوزيشن مفتوح نبيعه.
+[2025-08-19 21:02:27] 🔮 Model -> SELL @ NVDA (close=176.83)
+[2025-08-19 21:02:27] ℹ️ SELL signal بس مفيش بوزيشن مفتوح نبيعه.
+[2025-08-19 21:03:51] ✅ Model loaded.
+[2025-08-19 21:03:51] --- Live Trading Started (Paper) ---
+[2025-08-19 21:03:51] Symbol: NVDA | Qty per order: 1
+[2025-08-19 21:03:55] 🔮 Model -> SELL @ NVDA (close=176.72)
+[2025-08-19 21:03:56] 🛑 SELL signal: هنقفل البوزيشن كله.
+[2025-08-19 21:03:56] DELETE /v2/positions/NVDA -> HTTP 200 | {'id': 'd88cfa2b-e975-4267-a52b-bc0185c3f675', 'client_order_id': 'dea3b1d0-ba2d-4609-9306-886a11de4ae2', 'created_at': '2025-08-19T18:03:56.055759859Z', 'updated_at': '2025-08-19T18:03:56.056317699Z', 'submitted_at': '2025-08-19T18:03:56.055759859Z', 'filled_at': None, 'expired_at': None, 'canceled_at': None, 'failed_at': None, 'replaced_at': None, 'replaced_by': None, 'replaces': None, 'asset_id': '4ce9353c-66d1-46c2-898f-fce867ab0247', 'symbol': 'NVDA', 'asset_class': 'us_equity', 'notional': None, 'qty': '5', 'filled_qty': '0', 'filled_avg_price': None, 'order_class': '', 'order_type': 'market', 'type': 'market', 'side': 'sell', 'position_intent': 'sell_to_close', 'time_in_force': 'day', 'limit_price': None, 'stop_price': None, 'status': 'pending_new', 'extended_hours': False, 'legs': None, 'trail_percent': None, 'trail_price': None, 'hwm': None, 'subtag': None, 'source': None, 'expires_at': '2025-08-19T20:00:00Z'}
+[2025-08-19 21:08:57] 🔮 Model -> SELL @ NVDA (close=176.88)
+[2025-08-19 21:08:58] ℹ️ SELL signal بس مفيش بوزيشن مفتوح نبيعه.
+[2025-08-19 21:13:58] 🔮 Model -> SELL @ NVDA (close=177.04)
+[2025-08-19 21:13:59] 🛑 SELL signal: هنقفل البوزيشن كله.
+[2025-08-19 21:13:59] DELETE /v2/positions/NVDA -> HTTP 200 | {'id': '2a72cb4b-4691-41ce-afa9-41d267d89238', 'client_order_id': '91b740c5-8f4c-4fb5-879a-f7d345f7e4aa', 'created_at': '2025-08-19T18:13:58.930300843Z', 'updated_at': '2025-08-19T18:13:58.930867853Z', 'submitted_at': '2025-08-19T18:13:58.930300843Z', 'filled_at': None, 'expired_at': None, 'canceled_at': None, 'failed_at': None, 'replaced_at': None, 'replaced_by': None, 'replaces': None, 'asset_id': '4ce9353c-66d1-46c2-898f-fce867ab0247', 'symbol': 'NVDA', 'asset_class': 'us_equity', 'notional': None, 'qty': '50', 'filled_qty': '0', 'filled_avg_price': None, 'order_class': '', 'order_type': 'market', 'type': 'market', 'side': 'sell', 'position_intent': 'sell_to_close', 'time_in_force': 'day', 'limit_price': None, 'stop_price': None, 'status': 'pending_new', 'extended_hours': False, 'legs': None, 'trail_percent': None, 'trail_price': None, 'hwm': None, 'subtag': None, 'source': None, 'expires_at': '2025-08-19T20:00:00Z'}
+[2025-08-19 21:19:09] ⚠️ Fetch/feature error (try 1/5): Not enough minute bars from yfinance.
+[2025-08-19 21:19:27] 🔮 Model -> SELL @ NVDA (close=176.61)
+[2025-08-19 21:19:28] ℹ️ SELL signal بس مفيش بوزيشن مفتوح نبيعه.
+[2025-08-19 21:24:28] 🔮 Model -> SELL @ NVDA (close=176.61)
+[2025-08-19 21:24:29] ℹ️ SELL signal بس مفيش بوزيشن مفتوح نبيعه.
+[2025-08-19 21:29:56] ⏳ Loading the model...
+[2025-08-19 21:34:36] ⏳ Loading the model...
+[2025-08-19 21:34:37] ✅ Model loaded successfully.
+[2025-08-19 21:34:37] ⏳ Connecting to Alpaca API...
+[2025-08-19 21:34:38] ✅ Successfully connected to Alpaca API.
+[2025-08-19 21:34:38] 📊 Account status: ACTIVE
+[2025-08-19 21:34:38] 💰 Current portfolio value: $99996.48
+[2025-08-19 21:34:38] --- Automated trading system started ---
+[2025-08-19 21:34:38] 🚨 WARNING: Forced Trade Mode is ACTIVE. A trade will be initiated if none occur naturally.
+[2025-08-19 21:34:38] The code will now check the market every 180 seconds during market hours.
+[2025-08-19 21:34:38] To stop the code, press the stop button (red square) in Jupyter or Ctrl+C in the terminal.
+[2025-08-19 21:34:38] Starting the main execution loop.
+[2025-08-19 21:34:38] ⚙️ Checking the market...
+[2025-08-19 21:34:39]   - Current price: $176.50
+[2025-08-19 21:34:39]   - Features for analysis:
+[2025-08-19 21:34:39]     - macd_line: -0.07
+[2025-08-19 21:34:39]     - macd_signal: -0.07
+[2025-08-19 21:34:39]     - macd_diff: -0.00
+[2025-08-19 21:34:39]     - bb_hband: 176.85
+[2025-08-19 21:34:39]     - bb_lband: 176.36
+[2025-08-19 21:34:39]     - bb_wband: 0.28
+[2025-08-19 21:34:39]     - sma_20: 176.60
+[2025-08-19 21:34:39]     - rsi_14: 44.04
+[2025-08-19 21:34:39]     - atr_14: 0.17
+[2025-08-19 21:34:39]     - daily_range_pct: 0.00
+[2025-08-19 21:34:39]     - volatility_5_std: 0.11
+[2025-08-19 21:34:39]     - volatility_20_std: 0.13
+[2025-08-19 21:34:39]     - year: 2025.00
+[2025-08-19 21:34:39]     - month: 8.00
+[2025-08-19 21:34:39]     - dayofweek: 1.00
+[2025-08-19 21:34:39]     - lag_1_close_return: 0.04
+[2025-08-19 21:34:39]     - lag_5_close_return: -0.04
+[2025-08-19 21:34:39]     - lag_20_close_return: -0.22
+[2025-08-19 21:34:39]     - gap_open_close_prev_pct: 0.04
+[2025-08-19 21:34:39]     - volume: 1.00
+[2025-08-19 21:34:39]     - volume_change_pct: 1.00
+[2025-08-19 21:34:39]     - high_low_spread: 0.00
+[2025-08-19 21:34:39]     - open_close_spread: 0.00
+[2025-08-19 21:34:39]     - momentum_10d: -0.06
+[2025-08-19 21:34:39]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 21:34:39]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 21:37:39] ⚙️ Checking the market...
+[2025-08-19 21:37:40]   - Current price: $176.50
+[2025-08-19 21:37:40]   - Features for analysis:
+[2025-08-19 21:37:40]     - macd_line: -0.07
+[2025-08-19 21:37:40]     - macd_signal: -0.07
+[2025-08-19 21:37:40]     - macd_diff: -0.00
+[2025-08-19 21:37:40]     - bb_hband: 176.73
+[2025-08-19 21:37:40]     - bb_lband: 176.38
+[2025-08-19 21:37:40]     - bb_wband: 0.20
+[2025-08-19 21:37:40]     - sma_20: 176.56
+[2025-08-19 21:37:40]     - rsi_14: 44.03
+[2025-08-19 21:37:40]     - atr_14: 0.16
+[2025-08-19 21:37:40]     - daily_range_pct: 0.00
+[2025-08-19 21:37:40]     - volatility_5_std: 0.03
+[2025-08-19 21:37:40]     - volatility_20_std: 0.09
+[2025-08-19 21:37:40]     - year: 2025.00
+[2025-08-19 21:37:40]     - month: 8.00
+[2025-08-19 21:37:40]     - dayofweek: 1.00
+[2025-08-19 21:37:40]     - lag_1_close_return: 0.01
+[2025-08-19 21:37:40]     - lag_5_close_return: -0.11
+[2025-08-19 21:37:40]     - lag_20_close_return: -0.09
+[2025-08-19 21:37:40]     - gap_open_close_prev_pct: 0.01
+[2025-08-19 21:37:40]     - volume: 1.00
+[2025-08-19 21:37:40]     - volume_change_pct: 1.00
+[2025-08-19 21:37:40]     - high_low_spread: 0.00
+[2025-08-19 21:37:40]     - open_close_spread: 0.00
+[2025-08-19 21:37:40]     - momentum_10d: -0.03
+[2025-08-19 21:37:40]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 21:37:40]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 21:40:40] ⚙️ Checking the market...
+[2025-08-19 21:40:41]   - Current price: $176.59
+[2025-08-19 21:40:41]   - Features for analysis:
+[2025-08-19 21:40:41]     - macd_line: -0.06
+[2025-08-19 21:40:41]     - macd_signal: -0.07
+[2025-08-19 21:40:41]     - macd_diff: 0.01
+[2025-08-19 21:40:41]     - bb_hband: 176.72
+[2025-08-19 21:40:41]     - bb_lband: 176.38
+[2025-08-19 21:40:41]     - bb_wband: 0.19
+[2025-08-19 21:40:41]     - sma_20: 176.55
+[2025-08-19 21:40:41]     - rsi_14: 49.80
+[2025-08-19 21:40:41]     - atr_14: 0.15
+[2025-08-19 21:40:41]     - daily_range_pct: 0.00
+[2025-08-19 21:40:41]     - volatility_5_std: 0.05
+[2025-08-19 21:40:41]     - volatility_20_std: 0.09
+[2025-08-19 21:40:41]     - year: 2025.00
+[2025-08-19 21:40:41]     - month: 8.00
+[2025-08-19 21:40:41]     - dayofweek: 1.00
+[2025-08-19 21:40:41]     - lag_1_close_return: 0.08
+[2025-08-19 21:40:41]     - lag_5_close_return: 0.05
+[2025-08-19 21:40:41]     - lag_20_close_return: 0.08
+[2025-08-19 21:40:41]     - gap_open_close_prev_pct: 0.08
+[2025-08-19 21:40:41]     - volume: 1.00
+[2025-08-19 21:40:41]     - volume_change_pct: 1.00
+[2025-08-19 21:40:41]     - high_low_spread: 0.00
+[2025-08-19 21:40:41]     - open_close_spread: 0.00
+[2025-08-19 21:40:41]     - momentum_10d: 0.07
+[2025-08-19 21:40:41]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 21:40:41]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 21:43:41] ⚙️ Checking the market...
+[2025-08-19 21:43:42]   - Current price: $176.38
+[2025-08-19 21:43:42]   - Features for analysis:
+[2025-08-19 21:43:42]     - macd_line: -0.05
+[2025-08-19 21:43:42]     - macd_signal: -0.06
+[2025-08-19 21:43:42]     - macd_diff: 0.00
+[2025-08-19 21:43:42]     - bb_hband: 176.73
+[2025-08-19 21:43:42]     - bb_lband: 176.38
+[2025-08-19 21:43:42]     - bb_wband: 0.20
+[2025-08-19 21:43:42]     - sma_20: 176.55
+[2025-08-19 21:43:42]     - rsi_14: 40.47
+[2025-08-19 21:43:42]     - atr_14: 0.15
+[2025-08-19 21:43:42]     - daily_range_pct: 0.00
+[2025-08-19 21:43:42]     - volatility_5_std: 0.11
+[2025-08-19 21:43:42]     - volatility_20_std: 0.09
+[2025-08-19 21:43:42]     - year: 2025.00
+[2025-08-19 21:43:42]     - month: 8.00
+[2025-08-19 21:43:42]     - dayofweek: 1.00
+[2025-08-19 21:43:42]     - lag_1_close_return: -0.10
+[2025-08-19 21:43:42]     - lag_5_close_return: -0.05
+[2025-08-19 21:43:42]     - lag_20_close_return: -0.03
+[2025-08-19 21:43:42]     - gap_open_close_prev_pct: -0.10
+[2025-08-19 21:43:42]     - volume: 1.00
+[2025-08-19 21:43:42]     - volume_change_pct: 1.00
+[2025-08-19 21:43:42]     - high_low_spread: 0.00
+[2025-08-19 21:43:42]     - open_close_spread: 0.00
+[2025-08-19 21:43:42]     - momentum_10d: -0.06
+[2025-08-19 21:43:42]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 21:43:42]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 21:46:42] ⚙️ Checking the market...
+[2025-08-19 21:46:43]   - Current price: $176.24
+[2025-08-19 21:46:43]   - Features for analysis:
+[2025-08-19 21:46:43]     - macd_line: -0.09
+[2025-08-19 21:46:43]     - macd_signal: -0.07
+[2025-08-19 21:46:43]     - macd_diff: -0.02
+[2025-08-19 21:46:43]     - bb_hband: 176.75
+[2025-08-19 21:46:43]     - bb_lband: 176.24
+[2025-08-19 21:46:43]     - bb_wband: 0.29
+[2025-08-19 21:46:43]     - sma_20: 176.49
+[2025-08-19 21:46:43]     - rsi_14: 37.04
+[2025-08-19 21:46:43]     - atr_14: 0.16
+[2025-08-19 21:46:43]     - daily_range_pct: 0.00
+[2025-08-19 21:46:43]     - volatility_5_std: 0.13
+[2025-08-19 21:46:43]     - volatility_20_std: 0.13
+[2025-08-19 21:46:43]     - year: 2025.00
+[2025-08-19 21:46:43]     - month: 8.00
+[2025-08-19 21:46:43]     - dayofweek: 1.00
+[2025-08-19 21:46:43]     - lag_1_close_return: -0.05
+[2025-08-19 21:46:43]     - lag_5_close_return: -0.21
+[2025-08-19 21:46:43]     - lag_20_close_return: -0.23
+[2025-08-19 21:46:43]     - gap_open_close_prev_pct: -0.05
+[2025-08-19 21:46:43]     - volume: 1.00
+[2025-08-19 21:46:43]     - volume_change_pct: 1.00
+[2025-08-19 21:46:43]     - high_low_spread: 0.00
+[2025-08-19 21:46:43]     - open_close_spread: 0.00
+[2025-08-19 21:46:43]     - momentum_10d: -0.24
+[2025-08-19 21:46:43]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 21:46:43]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 21:49:43] ⚙️ Checking the market...
+[2025-08-19 21:49:44]   - Current price: $176.10
+[2025-08-19 21:49:44]   - Features for analysis:
+[2025-08-19 21:49:44]     - macd_line: -0.13
+[2025-08-19 21:49:44]     - macd_signal: -0.10
+[2025-08-19 21:49:44]     - macd_diff: -0.03
+[2025-08-19 21:49:44]     - bb_hband: 176.79
+[2025-08-19 21:49:44]     - bb_lband: 176.06
+[2025-08-19 21:49:44]     - bb_wband: 0.41
+[2025-08-19 21:49:44]     - sma_20: 176.42
+[2025-08-19 21:49:44]     - rsi_14: 35.40
+[2025-08-19 21:49:44]     - atr_14: 0.16
+[2025-08-19 21:49:44]     - daily_range_pct: 0.00
+[2025-08-19 21:49:44]     - volatility_5_std: 0.10
+[2025-08-19 21:49:44]     - volatility_20_std: 0.19
+[2025-08-19 21:49:44]     - year: 2025.00
+[2025-08-19 21:49:44]     - month: 8.00
+[2025-08-19 21:49:44]     - dayofweek: 1.00
+[2025-08-19 21:49:44]     - lag_1_close_return: 0.01
+[2025-08-19 21:49:44]     - lag_5_close_return: -0.10
+[2025-08-19 21:49:44]     - lag_20_close_return: -0.27
+[2025-08-19 21:49:44]     - gap_open_close_prev_pct: 0.01
+[2025-08-19 21:49:44]     - volume: 1.00
+[2025-08-19 21:49:44]     - volume_change_pct: 1.00
+[2025-08-19 21:49:44]     - high_low_spread: 0.00
+[2025-08-19 21:49:44]     - open_close_spread: 0.00
+[2025-08-19 21:49:44]     - momentum_10d: -0.36
+[2025-08-19 21:49:44]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 21:49:44]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 21:52:44] ⚙️ Checking the market...
+[2025-08-19 21:52:54]   - Received empty or insufficient data from Yahoo Finance. Retrying...
+[2025-08-19 21:52:55]   - Received empty or insufficient data from Yahoo Finance. Retrying...
+[2025-08-19 21:52:59]   - Current price: $176.15
+[2025-08-19 21:52:59]   - Features for analysis:
+[2025-08-19 21:52:59]     - macd_line: -0.13
+[2025-08-19 21:52:59]     - macd_signal: -0.11
+[2025-08-19 21:52:59]     - macd_diff: -0.02
+[2025-08-19 21:52:59]     - bb_hband: 176.71
+[2025-08-19 21:52:59]     - bb_lband: 176.00
+[2025-08-19 21:52:59]     - bb_wband: 0.41
+[2025-08-19 21:52:59]     - sma_20: 176.35
+[2025-08-19 21:52:59]     - rsi_14: 38.65
+[2025-08-19 21:52:59]     - atr_14: 0.15
+[2025-08-19 21:52:59]     - daily_range_pct: 0.00
+[2025-08-19 21:52:59]     - volatility_5_std: 0.04
+[2025-08-19 21:52:59]     - volatility_20_std: 0.18
+[2025-08-19 21:52:59]     - year: 2025.00
+[2025-08-19 21:52:59]     - month: 8.00
+[2025-08-19 21:52:59]     - dayofweek: 1.00
+[2025-08-19 21:52:59]     - lag_1_close_return: -0.01
+[2025-08-19 21:52:59]     - lag_5_close_return: -0.04
+[2025-08-19 21:52:59]     - lag_20_close_return: -0.30
+[2025-08-19 21:52:59]     - gap_open_close_prev_pct: -0.01
+[2025-08-19 21:52:59]     - volume: 1.00
+[2025-08-19 21:52:59]     - volume_change_pct: 1.00
+[2025-08-19 21:52:59]     - high_low_spread: 0.00
+[2025-08-19 21:52:59]     - open_close_spread: 0.00
+[2025-08-19 21:52:59]     - momentum_10d: -0.41
+[2025-08-19 21:53:00]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 21:53:00]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 21:56:00] ⚙️ Checking the market...
+[2025-08-19 21:56:00]   - Current price: $176.24
+[2025-08-19 21:56:00]   - Features for analysis:
+[2025-08-19 21:56:00]     - macd_line: -0.09
+[2025-08-19 21:56:00]     - macd_signal: -0.11
+[2025-08-19 21:56:00]     - macd_diff: 0.02
+[2025-08-19 21:56:00]     - bb_hband: 176.67
+[2025-08-19 21:56:00]     - bb_lband: 175.98
+[2025-08-19 21:56:00]     - bb_wband: 0.39
+[2025-08-19 21:56:00]     - sma_20: 176.33
+[2025-08-19 21:56:00]     - rsi_14: 44.88
+[2025-08-19 21:56:00]     - atr_14: 0.16
+[2025-08-19 21:56:00]     - daily_range_pct: 0.00
+[2025-08-19 21:56:00]     - volatility_5_std: 0.10
+[2025-08-19 21:56:00]     - volatility_20_std: 0.18
+[2025-08-19 21:56:00]     - year: 2025.00
+[2025-08-19 21:56:00]     - month: 8.00
+[2025-08-19 21:56:00]     - dayofweek: 1.00
+[2025-08-19 21:56:00]     - lag_1_close_return: -0.09
+[2025-08-19 21:56:00]     - lag_5_close_return: 0.05
+[2025-08-19 21:56:00]     - lag_20_close_return: -0.15
+[2025-08-19 21:56:00]     - gap_open_close_prev_pct: -0.09
+[2025-08-19 21:56:00]     - volume: 1.00
+[2025-08-19 21:56:00]     - volume_change_pct: 1.00
+[2025-08-19 21:56:00]     - high_low_spread: 0.00
+[2025-08-19 21:56:00]     - open_close_spread: 0.00
+[2025-08-19 21:56:00]     - momentum_10d: -0.09
+[2025-08-19 21:56:01]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 21:56:01]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 21:59:01] ⚙️ Checking the market...
+[2025-08-19 21:59:01]   - Current price: $176.43
+[2025-08-19 21:59:01]   - Features for analysis:
+[2025-08-19 21:59:01]     - macd_line: -0.06
+[2025-08-19 21:59:01]     - macd_signal: -0.09
+[2025-08-19 21:59:01]     - macd_diff: 0.03
+[2025-08-19 21:59:01]     - bb_hband: 176.63
+[2025-08-19 21:59:01]     - bb_lband: 175.98
+[2025-08-19 21:59:01]     - bb_wband: 0.37
+[2025-08-19 21:59:01]     - sma_20: 176.30
+[2025-08-19 21:59:01]     - rsi_14: 52.94
+[2025-08-19 21:59:01]     - atr_14: 0.16
+[2025-08-19 21:59:01]     - daily_range_pct: 0.09
+[2025-08-19 21:59:01]     - volatility_5_std: 0.09
+[2025-08-19 21:59:01]     - volatility_20_std: 0.17
+[2025-08-19 21:59:01]     - year: 2025.00
+[2025-08-19 21:59:01]     - month: 8.00
+[2025-08-19 21:59:01]     - dayofweek: 1.00
+[2025-08-19 21:59:01]     - lag_1_close_return: 0.06
+[2025-08-19 21:59:01]     - lag_5_close_return: 0.09
+[2025-08-19 21:59:01]     - lag_20_close_return: -0.03
+[2025-08-19 21:59:01]     - gap_open_close_prev_pct: 0.00
+[2025-08-19 21:59:01]     - volume: 1.00
+[2025-08-19 21:59:01]     - volume_change_pct: 1.00
+[2025-08-19 21:59:01]     - high_low_spread: 0.16
+[2025-08-19 21:59:01]     - open_close_spread: 0.10
+[2025-08-19 21:59:01]     - momentum_10d: 0.34
+[2025-08-19 21:59:02]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 21:59:02]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 22:02:02] ⚙️ Checking the market...
+[2025-08-19 22:02:03]   - Current price: $175.96
+[2025-08-19 22:02:03]   - Features for analysis:
+[2025-08-19 22:02:03]     - macd_line: -0.08
+[2025-08-19 22:02:03]     - macd_signal: -0.08
+[2025-08-19 22:02:03]     - macd_diff: 0.00
+[2025-08-19 22:02:03]     - bb_hband: 176.51
+[2025-08-19 22:02:03]     - bb_lband: 175.98
+[2025-08-19 22:02:03]     - bb_wband: 0.30
+[2025-08-19 22:02:03]     - sma_20: 176.24
+[2025-08-19 22:02:03]     - rsi_14: 36.39
+[2025-08-19 22:02:03]     - atr_14: 0.17
+[2025-08-19 22:02:03]     - daily_range_pct: 0.15
+[2025-08-19 22:02:03]     - volatility_5_std: 0.19
+[2025-08-19 22:02:03]     - volatility_20_std: 0.14
+[2025-08-19 22:02:03]     - year: 2025.00
+[2025-08-19 22:02:03]     - month: 8.00
+[2025-08-19 22:02:03]     - dayofweek: 1.00
+[2025-08-19 22:02:03]     - lag_1_close_return: -0.13
+[2025-08-19 22:02:03]     - lag_5_close_return: -0.17
+[2025-08-19 22:02:03]     - lag_20_close_return: -0.37
+[2025-08-19 22:02:03]     - gap_open_close_prev_pct: 0.00
+[2025-08-19 22:02:03]     - volume: 1.00
+[2025-08-19 22:02:03]     - volume_change_pct: 1.00
+[2025-08-19 22:02:03]     - high_low_spread: 0.26
+[2025-08-19 22:02:03]     - open_close_spread: -0.24
+[2025-08-19 22:02:03]     - momentum_10d: -0.22
+[2025-08-19 22:02:03]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 22:02:03]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 22:05:03] ⚙️ Checking the market...
+[2025-08-19 22:05:13]   - Received empty or insufficient data from Yahoo Finance. Retrying...
+[2025-08-19 22:05:14]   - Received empty or insufficient data from Yahoo Finance. Retrying...
+[2025-08-19 22:05:15]   - Current price: $176.00
+[2025-08-19 22:05:15]   - Features for analysis:
+[2025-08-19 22:05:15]     - macd_line: -0.11
+[2025-08-19 22:05:15]     - macd_signal: -0.09
+[2025-08-19 22:05:15]     - macd_diff: -0.02
+[2025-08-19 22:05:15]     - bb_hband: 176.45
+[2025-08-19 22:05:15]     - bb_lband: 175.89
+[2025-08-19 22:05:15]     - bb_wband: 0.32
+[2025-08-19 22:05:15]     - sma_20: 176.17
+[2025-08-19 22:05:15]     - rsi_14: 39.46
+[2025-08-19 22:05:15]     - atr_14: 0.16
+[2025-08-19 22:05:15]     - daily_range_pct: 0.00
+[2025-08-19 22:05:15]     - volatility_5_std: 0.03
+[2025-08-19 22:05:15]     - volatility_20_std: 0.14
+[2025-08-19 22:05:15]     - year: 2025.00
+[2025-08-19 22:05:15]     - month: 8.00
+[2025-08-19 22:05:15]     - dayofweek: 1.00
+[2025-08-19 22:05:15]     - lag_1_close_return: -0.03
+[2025-08-19 22:05:15]     - lag_5_close_return: -0.11
+[2025-08-19 22:05:15]     - lag_20_close_return: -0.19
+[2025-08-19 22:05:15]     - gap_open_close_prev_pct: -0.03
+[2025-08-19 22:05:15]     - volume: 1.00
+[2025-08-19 22:05:15]     - volume_change_pct: 1.00
+[2025-08-19 22:05:15]     - high_low_spread: 0.00
+[2025-08-19 22:05:15]     - open_close_spread: 0.00
+[2025-08-19 22:05:15]     - momentum_10d: -0.22
+[2025-08-19 22:05:23]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 22:05:23]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 22:08:23] ⚙️ Checking the market...
+[2025-08-19 22:08:23]   - Current price: $175.71
+[2025-08-19 22:08:23]   - Features for analysis:
+[2025-08-19 22:08:23]     - macd_line: -0.16
+[2025-08-19 22:08:23]     - macd_signal: -0.12
+[2025-08-19 22:08:23]     - macd_diff: -0.04
+[2025-08-19 22:08:23]     - bb_hband: 176.52
+[2025-08-19 22:08:23]     - bb_lband: 175.70
+[2025-08-19 22:08:23]     - bb_wband: 0.47
+[2025-08-19 22:08:23]     - sma_20: 176.11
+[2025-08-19 22:08:23]     - rsi_14: 31.33
+[2025-08-19 22:08:23]     - atr_14: 0.16
+[2025-08-19 22:08:23]     - daily_range_pct: 0.00
+[2025-08-19 22:08:23]     - volatility_5_std: 0.15
+[2025-08-19 22:08:23]     - volatility_20_std: 0.21
+[2025-08-19 22:08:23]     - year: 2025.00
+[2025-08-19 22:08:23]     - month: 8.00
+[2025-08-19 22:08:23]     - dayofweek: 1.00
+[2025-08-19 22:08:23]     - lag_1_close_return: -0.00
+[2025-08-19 22:08:23]     - lag_5_close_return: -0.14
+[2025-08-19 22:08:23]     - lag_20_close_return: -0.21
+[2025-08-19 22:08:23]     - gap_open_close_prev_pct: -0.00
+[2025-08-19 22:08:23]     - volume: 1.00
+[2025-08-19 22:08:23]     - volume_change_pct: 1.00
+[2025-08-19 22:08:23]     - high_low_spread: 0.00
+[2025-08-19 22:08:23]     - open_close_spread: 0.00
+[2025-08-19 22:08:23]     - momentum_10d: -0.71
+[2025-08-19 22:08:24]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 22:08:24]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 22:11:24] ⚙️ Checking the market...
+[2025-08-19 22:11:25]   - Current price: $175.96
+[2025-08-19 22:11:25]   - Features for analysis:
+[2025-08-19 22:11:25]     - macd_line: -0.12
+[2025-08-19 22:11:25]     - macd_signal: -0.12
+[2025-08-19 22:11:25]     - macd_diff: -0.00
+[2025-08-19 22:11:25]     - bb_hband: 176.49
+[2025-08-19 22:11:25]     - bb_lband: 175.69
+[2025-08-19 22:11:25]     - bb_wband: 0.46
+[2025-08-19 22:11:25]     - sma_20: 176.09
+[2025-08-19 22:11:25]     - rsi_14: 44.03
+[2025-08-19 22:11:25]     - atr_14: 0.16
+[2025-08-19 22:11:25]     - daily_range_pct: 0.00
+[2025-08-19 22:11:25]     - volatility_5_std: 0.10
+[2025-08-19 22:11:25]     - volatility_20_std: 0.21
+[2025-08-19 22:11:25]     - year: 2025.00
+[2025-08-19 22:11:25]     - month: 8.00
+[2025-08-19 22:11:25]     - dayofweek: 1.00
+[2025-08-19 22:11:25]     - lag_1_close_return: 0.00
+[2025-08-19 22:11:25]     - lag_5_close_return: 0.08
+[2025-08-19 22:11:25]     - lag_20_close_return: -0.12
+[2025-08-19 22:11:25]     - gap_open_close_prev_pct: 0.00
+[2025-08-19 22:11:25]     - volume: 1.00
+[2025-08-19 22:11:25]     - volume_change_pct: 1.00
+[2025-08-19 22:11:25]     - high_low_spread: 0.00
+[2025-08-19 22:11:25]     - open_close_spread: 0.00
+[2025-08-19 22:11:25]     - momentum_10d: 0.00
+[2025-08-19 22:11:25]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 22:11:25]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 22:14:25] ⚙️ Checking the market...
+[2025-08-19 22:14:26]   - Current price: $175.90
+[2025-08-19 22:14:26]   - Features for analysis:
+[2025-08-19 22:14:26]     - macd_line: -0.12
+[2025-08-19 22:14:26]     - macd_signal: -0.12
+[2025-08-19 22:14:26]     - macd_diff: 0.00
+[2025-08-19 22:14:26]     - bb_hband: 176.42
+[2025-08-19 22:14:26]     - bb_lband: 175.63
+[2025-08-19 22:14:26]     - bb_wband: 0.45
+[2025-08-19 22:14:26]     - sma_20: 176.03
+[2025-08-19 22:14:26]     - rsi_14: 43.15
+[2025-08-19 22:14:26]     - atr_14: 0.16
+[2025-08-19 22:14:26]     - daily_range_pct: 0.00
+[2025-08-19 22:14:26]     - volatility_5_std: 0.06
+[2025-08-19 22:14:26]     - volatility_20_std: 0.20
+[2025-08-19 22:14:26]     - year: 2025.00
+[2025-08-19 22:14:26]     - month: 8.00
+[2025-08-19 22:14:26]     - dayofweek: 1.00
+[2025-08-19 22:14:26]     - lag_1_close_return: 0.01
+[2025-08-19 22:14:26]     - lag_5_close_return: 0.02
+[2025-08-19 22:14:26]     - lag_20_close_return: -0.29
+[2025-08-19 22:14:26]     - gap_open_close_prev_pct: 0.01
+[2025-08-19 22:14:26]     - volume: 1.00
+[2025-08-19 22:14:26]     - volume_change_pct: 1.00
+[2025-08-19 22:14:26]     - high_low_spread: 0.00
+[2025-08-19 22:14:26]     - open_close_spread: 0.00
+[2025-08-19 22:14:26]     - momentum_10d: -0.15
+[2025-08-19 22:14:27]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 22:14:27]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 22:15:25] --- Automated trading system stopped ---
+[2025-08-19 22:16:08] ⏳ Loading the model...
+[2025-08-19 22:16:09] ✅ Model loaded successfully.
+[2025-08-19 22:16:09] ⏳ Connecting to Alpaca API...
+[2025-08-19 22:16:10] ✅ Successfully connected to Alpaca API.
+[2025-08-19 22:16:10] 📊 Account status: ACTIVE
+[2025-08-19 22:16:10] 💰 Current portfolio value: $99996.71
+[2025-08-19 22:16:10] --- Automated trading system started ---
+[2025-08-19 22:16:10] 🚨 WARNING: Forced Trade Mode is ACTIVE. A trade will be initiated if none occur naturally.
+[2025-08-19 22:16:10] The code will now check the market every 180 seconds during market hours.
+[2025-08-19 22:16:10] To stop the code, press the stop button (red square) in Jupyter or Ctrl+C in the terminal.
+[2025-08-19 22:16:10] Starting the main execution loop.
+[2025-08-19 22:16:10] ⚙️ Checking the market...
+[2025-08-19 22:16:11]   - Current price: $175.95
+[2025-08-19 22:16:11]   - Features for analysis:
+[2025-08-19 22:16:11]     - macd_line: -0.10
+[2025-08-19 22:16:11]     - macd_signal: -0.12
+[2025-08-19 22:16:11]     - macd_diff: 0.02
+[2025-08-19 22:16:11]     - bb_hband: 176.37
+[2025-08-19 22:16:11]     - bb_lband: 175.63
+[2025-08-19 22:16:11]     - bb_wband: 0.42
+[2025-08-19 22:16:11]     - sma_20: 176.00
+[2025-08-19 22:16:11]     - rsi_14: 45.50
+[2025-08-19 22:16:11]     - atr_14: 0.15
+[2025-08-19 22:16:11]     - daily_range_pct: 0.00
+[2025-08-19 22:16:11]     - volatility_5_std: 0.06
+[2025-08-19 22:16:11]     - volatility_20_std: 0.19
+[2025-08-19 22:16:11]     - year: 2025.00
+[2025-08-19 22:16:11]     - month: 8.00
+[2025-08-19 22:16:11]     - dayofweek: 1.00
+[2025-08-19 22:16:11]     - lag_1_close_return: 0.01
+[2025-08-19 22:16:11]     - lag_5_close_return: 0.01
+[2025-08-19 22:16:11]     - lag_20_close_return: -0.18
+[2025-08-19 22:16:11]     - gap_open_close_prev_pct: 0.01
+[2025-08-19 22:16:11]     - volume: 1.00
+[2025-08-19 22:16:11]     - volume_change_pct: 1.00
+[2025-08-19 22:16:11]     - high_low_spread: 0.00
+[2025-08-19 22:16:11]     - open_close_spread: 0.00
+[2025-08-19 22:16:11]     - momentum_10d: 0.13
+[2025-08-19 22:16:11]   - Trade status: Current P/L: 0.03%. SL: $175.51, TP: $176.67
+[2025-08-19 22:19:11] ⚙️ Checking the market...
+[2025-08-19 22:19:12]   - Current price: $175.80
+[2025-08-19 22:19:12]   - Features for analysis:
+[2025-08-19 22:19:12]     - macd_line: -0.12
+[2025-08-19 22:19:12]     - macd_signal: -0.12
+[2025-08-19 22:19:12]     - macd_diff: 0.00
+[2025-08-19 22:19:12]     - bb_hband: 176.13
+[2025-08-19 22:19:12]     - bb_lband: 175.66
+[2025-08-19 22:19:12]     - bb_wband: 0.27
+[2025-08-19 22:19:12]     - sma_20: 175.89
+[2025-08-19 22:19:12]     - rsi_14: 42.45
+[2025-08-19 22:19:12]     - atr_14: 0.16
+[2025-08-19 22:19:12]     - daily_range_pct: 0.00
+[2025-08-19 22:19:12]     - volatility_5_std: 0.08
+[2025-08-19 22:19:12]     - volatility_20_std: 0.12
+[2025-08-19 22:19:12]     - year: 2025.00
+[2025-08-19 22:19:12]     - month: 8.00
+[2025-08-19 22:19:12]     - dayofweek: 1.00
+[2025-08-19 22:19:12]     - lag_1_close_return: 0.05
+[2025-08-19 22:19:12]     - lag_5_close_return: -0.07
+[2025-08-19 22:19:12]     - lag_20_close_return: -0.32
+[2025-08-19 22:19:12]     - gap_open_close_prev_pct: 0.05
+[2025-08-19 22:19:12]     - volume: 1.00
+[2025-08-19 22:19:12]     - volume_change_pct: 1.00
+[2025-08-19 22:19:12]     - high_low_spread: 0.00
+[2025-08-19 22:19:12]     - open_close_spread: 0.00
+[2025-08-19 22:19:12]     - momentum_10d: -0.06
+[2025-08-19 22:19:13]   - Trade status: Current P/L: -0.05%. SL: $175.51, TP: $176.68
+[2025-08-19 22:22:13] ⚙️ Checking the market...
+[2025-08-19 22:22:13]   - Current price: $176.24
+[2025-08-19 22:22:13]   - Features for analysis:
+[2025-08-19 22:22:13]     - macd_line: -0.03
+[2025-08-19 22:22:13]     - macd_signal: -0.09
+[2025-08-19 22:22:13]     - macd_diff: 0.06
+[2025-08-19 22:22:13]     - bb_hband: 176.19
+[2025-08-19 22:22:13]     - bb_lband: 175.64
+[2025-08-19 22:22:13]     - bb_wband: 0.31
+[2025-08-19 22:22:13]     - sma_20: 175.91
+[2025-08-19 22:22:13]     - rsi_14: 59.02
+[2025-08-19 22:22:13]     - atr_14: 0.16
+[2025-08-19 22:22:13]     - daily_range_pct: 0.00
+[2025-08-19 22:22:13]     - volatility_5_std: 0.22
+[2025-08-19 22:22:13]     - volatility_20_std: 0.14
+[2025-08-19 22:22:13]     - year: 2025.00
+[2025-08-19 22:22:13]     - month: 8.00
+[2025-08-19 22:22:13]     - dayofweek: 1.00
+[2025-08-19 22:22:13]     - lag_1_close_return: 0.04
+[2025-08-19 22:22:13]     - lag_5_close_return: 0.28
+[2025-08-19 22:22:13]     - lag_20_close_return: 0.14
+[2025-08-19 22:22:13]     - gap_open_close_prev_pct: 0.04
+[2025-08-19 22:22:13]     - volume: 1.00
+[2025-08-19 22:22:13]     - volume_change_pct: 1.00
+[2025-08-19 22:22:13]     - high_low_spread: 0.00
+[2025-08-19 22:22:13]     - open_close_spread: 0.00
+[2025-08-19 22:22:13]     - momentum_10d: 0.45
+[2025-08-19 22:22:14]   - Trade status: Current P/L: 0.19%. SL: $175.51, TP: $176.69
+[2025-08-19 22:25:14] ⚙️ Checking the market...
+[2025-08-19 22:25:14]   - Current price: $176.43
+[2025-08-19 22:25:14]   - Features for analysis:
+[2025-08-19 22:25:14]     - macd_line: 0.05
+[2025-08-19 22:25:14]     - macd_signal: -0.03
+[2025-08-19 22:25:14]     - macd_diff: 0.09
+[2025-08-19 22:25:14]     - bb_hband: 176.41
+[2025-08-19 22:25:14]     - bb_lband: 175.53
+[2025-08-19 22:25:14]     - bb_wband: 0.50
+[2025-08-19 22:25:14]     - sma_20: 175.97
+[2025-08-19 22:25:14]     - rsi_14: 63.26
+[2025-08-19 22:25:14]     - atr_14: 0.16
+[2025-08-19 22:25:14]     - daily_range_pct: 0.00
+[2025-08-19 22:25:14]     - volatility_5_std: 0.15
+[2025-08-19 22:25:14]     - volatility_20_std: 0.23
+[2025-08-19 22:25:14]     - year: 2025.00
+[2025-08-19 22:25:14]     - month: 8.00
+[2025-08-19 22:25:14]     - dayofweek: 1.00
+[2025-08-19 22:25:14]     - lag_1_close_return: -0.02
+[2025-08-19 22:25:14]     - lag_5_close_return: 0.23
+[2025-08-19 22:25:14]     - lag_20_close_return: 0.26
+[2025-08-19 22:25:14]     - gap_open_close_prev_pct: -0.02
+[2025-08-19 22:25:14]     - volume: 1.00
+[2025-08-19 22:25:14]     - volume_change_pct: 1.00
+[2025-08-19 22:25:14]     - high_low_spread: 0.00
+[2025-08-19 22:25:14]     - open_close_spread: 0.00
+[2025-08-19 22:25:14]     - momentum_10d: 0.51
+[2025-08-19 22:25:15]   - Trade status: Current P/L: 0.30%. SL: $175.51, TP: $176.68
+[2025-08-19 22:28:15] ⚙️ Checking the market...
+[2025-08-19 22:28:16]   - Current price: $176.29
+[2025-08-19 22:28:16]   - Features for analysis:
+[2025-08-19 22:28:16]     - macd_line: 0.07
+[2025-08-19 22:28:16]     - macd_signal: 0.01
+[2025-08-19 22:28:16]     - macd_diff: 0.05
+[2025-08-19 22:28:16]     - bb_hband: 176.51
+[2025-08-19 22:28:16]     - bb_lband: 175.57
+[2025-08-19 22:28:16]     - bb_wband: 0.53
+[2025-08-19 22:28:16]     - sma_20: 176.04
+[2025-08-19 22:28:16]     - rsi_14: 56.67
+[2025-08-19 22:28:16]     - atr_14: 0.15
+[2025-08-19 22:28:16]     - daily_range_pct: 0.00
+[2025-08-19 22:28:16]     - volatility_5_std: 0.09
+[2025-08-19 22:28:16]     - volatility_20_std: 0.24
+[2025-08-19 22:28:16]     - year: 2025.00
+[2025-08-19 22:28:16]     - month: 8.00
+[2025-08-19 22:28:16]     - dayofweek: 1.00
+[2025-08-19 22:28:16]     - lag_1_close_return: 0.02
+[2025-08-19 22:28:16]     - lag_5_close_return: -0.02
+[2025-08-19 22:28:16]     - lag_20_close_return: 0.19
+[2025-08-19 22:28:16]     - gap_open_close_prev_pct: 0.02
+[2025-08-19 22:28:16]     - volume: 1.00
+[2025-08-19 22:28:16]     - volume_change_pct: 1.00
+[2025-08-19 22:28:16]     - high_low_spread: 0.00
+[2025-08-19 22:28:16]     - open_close_spread: 0.00
+[2025-08-19 22:28:16]     - momentum_10d: 0.58
+[2025-08-19 22:28:16]   - Trade status: Current P/L: 0.22%. SL: $175.53, TP: $176.64
+[2025-08-19 22:31:16] ⚙️ Checking the market...
+[2025-08-19 22:31:17]   - Current price: $176.36
+[2025-08-19 22:31:17]   - Features for analysis:
+[2025-08-19 22:31:17]     - macd_line: 0.09
+[2025-08-19 22:31:17]     - macd_signal: 0.05
+[2025-08-19 22:31:17]     - macd_diff: 0.04
+[2025-08-19 22:31:17]     - bb_hband: 176.61
+[2025-08-19 22:31:17]     - bb_lband: 175.60
+[2025-08-19 22:31:17]     - bb_wband: 0.58
+[2025-08-19 22:31:17]     - sma_20: 176.10
+[2025-08-19 22:31:17]     - rsi_14: 58.35
+[2025-08-19 22:31:17]     - atr_14: 0.14
+[2025-08-19 22:31:17]     - daily_range_pct: 0.00
+[2025-08-19 22:31:17]     - volatility_5_std: 0.06
+[2025-08-19 22:31:17]     - volatility_20_std: 0.26
+[2025-08-19 22:31:17]     - year: 2025.00
+[2025-08-19 22:31:17]     - month: 8.00
+[2025-08-19 22:31:17]     - dayofweek: 1.00
+[2025-08-19 22:31:17]     - lag_1_close_return: -0.03
+[2025-08-19 22:31:17]     - lag_5_close_return: 0.02
+[2025-08-19 22:31:17]     - lag_20_close_return: 0.24
+[2025-08-19 22:31:17]     - gap_open_close_prev_pct: -0.03
+[2025-08-19 22:31:17]     - volume: 1.00
+[2025-08-19 22:31:17]     - volume_change_pct: 1.00
+[2025-08-19 22:31:17]     - high_low_spread: 0.00
+[2025-08-19 22:31:17]     - open_close_spread: 0.00
+[2025-08-19 22:31:17]     - momentum_10d: 0.19
+[2025-08-19 22:31:17]   - Trade status: Current P/L: 0.26%. SL: $175.55, TP: $176.60
+[2025-08-19 22:34:17] ⚙️ Checking the market...
+[2025-08-19 22:34:18]   - Current price: $176.19
+[2025-08-19 22:34:18]   - Features for analysis:
+[2025-08-19 22:34:18]     - macd_line: 0.06
+[2025-08-19 22:34:18]     - macd_signal: 0.06
+[2025-08-19 22:34:18]     - macd_diff: 0.00
+[2025-08-19 22:34:18]     - bb_hband: 176.62
+[2025-08-19 22:34:18]     - bb_lband: 175.69
+[2025-08-19 22:34:18]     - bb_wband: 0.53
+[2025-08-19 22:34:18]     - sma_20: 176.15
+[2025-08-19 22:34:18]     - rsi_14: 50.48
+[2025-08-19 22:34:18]     - atr_14: 0.13
+[2025-08-19 22:34:18]     - daily_range_pct: 0.00
+[2025-08-19 22:34:18]     - volatility_5_std: 0.09
+[2025-08-19 22:34:18]     - volatility_20_std: 0.24
+[2025-08-19 22:34:18]     - year: 2025.00
+[2025-08-19 22:34:18]     - month: 8.00
+[2025-08-19 22:34:18]     - dayofweek: 1.00
+[2025-08-19 22:34:18]     - lag_1_close_return: -0.00
+[2025-08-19 22:34:18]     - lag_5_close_return: -0.08
+[2025-08-19 22:34:18]     - lag_20_close_return: 0.14
+[2025-08-19 22:34:18]     - gap_open_close_prev_pct: -0.00
+[2025-08-19 22:34:18]     - volume: 1.00
+[2025-08-19 22:34:18]     - volume_change_pct: 1.00
+[2025-08-19 22:34:18]     - high_low_spread: 0.00
+[2025-08-19 22:34:18]     - open_close_spread: 0.00
+[2025-08-19 22:34:18]     - momentum_10d: -0.27
+[2025-08-19 22:34:19]   - Trade status: Current P/L: 0.16%. SL: $175.56, TP: $176.57
+[2025-08-19 22:37:19] ⚙️ Checking the market...
+[2025-08-19 22:37:19]   - Current price: $176.38
+[2025-08-19 22:37:19]   - Features for analysis:
+[2025-08-19 22:37:19]     - macd_line: 0.08
+[2025-08-19 22:37:19]     - macd_signal: 0.07
+[2025-08-19 22:37:19]     - macd_diff: 0.01
+[2025-08-19 22:37:19]     - bb_hband: 176.62
+[2025-08-19 22:37:19]     - bb_lband: 175.87
+[2025-08-19 22:37:19]     - bb_wband: 0.42
+[2025-08-19 22:37:19]     - sma_20: 176.24
+[2025-08-19 22:37:19]     - rsi_14: 58.02
+[2025-08-19 22:37:19]     - atr_14: 0.13
+[2025-08-19 22:37:19]     - daily_range_pct: 0.00
+[2025-08-19 22:37:19]     - volatility_5_std: 0.09
+[2025-08-19 22:37:19]     - volatility_20_std: 0.19
+[2025-08-19 22:37:19]     - year: 2025.00
+[2025-08-19 22:37:19]     - month: 8.00
+[2025-08-19 22:37:19]     - dayofweek: 1.00
+[2025-08-19 22:37:19]     - lag_1_close_return: -0.01
+[2025-08-19 22:37:19]     - lag_5_close_return: 0.05
+[2025-08-19 22:37:19]     - lag_20_close_return: 0.37
+[2025-08-19 22:37:19]     - gap_open_close_prev_pct: -0.01
+[2025-08-19 22:37:19]     - volume: 1.00
+[2025-08-19 22:37:19]     - volume_change_pct: 1.00
+[2025-08-19 22:37:19]     - high_low_spread: 0.00
+[2025-08-19 22:37:19]     - open_close_spread: 0.00
+[2025-08-19 22:37:19]     - momentum_10d: 0.14
+[2025-08-19 22:37:21]   - Trade status: Current P/L: 0.28%. SL: $175.57, TP: $176.56
+[2025-08-19 22:40:20] ⚙️ Checking the market...
+[2025-08-19 22:40:21]   - Current price: $176.10
+[2025-08-19 22:40:21]   - Features for analysis:
+[2025-08-19 22:40:21]     - macd_line: 0.04
+[2025-08-19 22:40:21]     - macd_signal: 0.06
+[2025-08-19 22:40:21]     - macd_diff: -0.02
+[2025-08-19 22:40:21]     - bb_hband: 176.48
+[2025-08-19 22:40:21]     - bb_lband: 176.11
+[2025-08-19 22:40:21]     - bb_wband: 0.21
+[2025-08-19 22:40:21]     - sma_20: 176.29
+[2025-08-19 22:40:21]     - rsi_14: 44.68
+[2025-08-19 22:40:21]     - atr_14: 0.13
+[2025-08-19 22:40:21]     - daily_range_pct: 0.00
+[2025-08-19 22:40:21]     - volatility_5_std: 0.12
+[2025-08-19 22:40:21]     - volatility_20_std: 0.10
+[2025-08-19 22:40:21]     - year: 2025.00
+[2025-08-19 22:40:21]     - month: 8.00
+[2025-08-19 22:40:21]     - dayofweek: 1.00
+[2025-08-19 22:40:21]     - lag_1_close_return: -0.07
+[2025-08-19 22:40:21]     - lag_5_close_return: -0.14
+[2025-08-19 22:40:21]     - lag_20_close_return: 0.05
+[2025-08-19 22:40:21]     - gap_open_close_prev_pct: -0.07
+[2025-08-19 22:40:21]     - volume: 1.00
+[2025-08-19 22:40:21]     - volume_change_pct: 1.00
+[2025-08-19 22:40:21]     - high_low_spread: 0.00
+[2025-08-19 22:40:21]     - open_close_spread: 0.00
+[2025-08-19 22:40:21]     - momentum_10d: -0.31
+[2025-08-19 22:40:21]   - Trade status: Current P/L: 0.12%. SL: $175.57, TP: $176.56
+[2025-08-19 22:40:21] 📉 SELL signal! Closing trade (negative MACD crossover) at $176.10. Return: 0.12%
+[2025-08-19 22:43:21] ⚙️ Checking the market...
+[2025-08-19 22:43:22]   - Current price: $175.99
+[2025-08-19 22:43:22]   - Features for analysis:
+[2025-08-19 22:43:22]     - macd_line: -0.02
+[2025-08-19 22:43:22]     - macd_signal: 0.03
+[2025-08-19 22:43:22]     - macd_diff: -0.05
+[2025-08-19 22:43:22]     - bb_hband: 176.54
+[2025-08-19 22:43:22]     - bb_lband: 175.98
+[2025-08-19 22:43:22]     - bb_wband: 0.32
+[2025-08-19 22:43:22]     - sma_20: 176.26
+[2025-08-19 22:43:22]     - rsi_14: 40.51
+[2025-08-19 22:43:22]     - atr_14: 0.13
+[2025-08-19 22:43:22]     - daily_range_pct: 0.00
+[2025-08-19 22:43:22]     - volatility_5_std: 0.10
+[2025-08-19 22:43:22]     - volatility_20_std: 0.14
+[2025-08-19 22:43:22]     - year: 2025.00
+[2025-08-19 22:43:22]     - month: 8.00
+[2025-08-19 22:43:22]     - dayofweek: 1.00
+[2025-08-19 22:43:22]     - lag_1_close_return: -0.00
+[2025-08-19 22:43:22]     - lag_5_close_return: -0.15
+[2025-08-19 22:43:22]     - lag_20_close_return: -0.18
+[2025-08-19 22:43:22]     - gap_open_close_prev_pct: -0.00
+[2025-08-19 22:43:22]     - volume: 1.00
+[2025-08-19 22:43:22]     - volume_change_pct: 1.00
+[2025-08-19 22:43:22]     - high_low_spread: 0.00
+[2025-08-19 22:43:22]     - open_close_spread: 0.00
+[2025-08-19 22:43:22]     - momentum_10d: -0.20
+[2025-08-19 22:43:23]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 22:43:23]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 22:46:23] ⚙️ Checking the market...
+[2025-08-19 22:46:23]   - Current price: $176.22
+[2025-08-19 22:46:23]   - Features for analysis:
+[2025-08-19 22:46:23]     - macd_line: -0.00
+[2025-08-19 22:46:23]     - macd_signal: 0.01
+[2025-08-19 22:46:23]     - macd_diff: -0.01
+[2025-08-19 22:46:23]     - bb_hband: 176.47
+[2025-08-19 22:46:23]     - bb_lband: 176.00
+[2025-08-19 22:46:23]     - bb_wband: 0.27
+[2025-08-19 22:46:23]     - sma_20: 176.24
+[2025-08-19 22:46:23]     - rsi_14: 51.81
+[2025-08-19 22:46:23]     - atr_14: 0.13
+[2025-08-19 22:46:23]     - daily_range_pct: 0.00
+[2025-08-19 22:46:23]     - volatility_5_std: 0.10
+[2025-08-19 22:46:23]     - volatility_20_std: 0.12
+[2025-08-19 22:46:23]     - year: 2025.00
+[2025-08-19 22:46:23]     - month: 8.00
+[2025-08-19 22:46:23]     - dayofweek: 1.00
+[2025-08-19 22:46:23]     - lag_1_close_return: 0.01
+[2025-08-19 22:46:23]     - lag_5_close_return: 0.12
+[2025-08-19 22:46:23]     - lag_20_close_return: -0.06
+[2025-08-19 22:46:23]     - gap_open_close_prev_pct: 0.01
+[2025-08-19 22:46:23]     - volume: 1.00
+[2025-08-19 22:46:23]     - volume_change_pct: 1.00
+[2025-08-19 22:46:23]     - high_low_spread: 0.00
+[2025-08-19 22:46:23]     - open_close_spread: 0.00
+[2025-08-19 22:46:23]     - momentum_10d: -0.18
+[2025-08-19 22:46:24]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 22:46:24]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 22:49:24] ⚙️ Checking the market...
+[2025-08-19 22:49:24]   - Current price: $176.08
+[2025-08-19 22:49:24]   - Features for analysis:
+[2025-08-19 22:49:24]     - macd_line: -0.02
+[2025-08-19 22:49:24]     - macd_signal: -0.00
+[2025-08-19 22:49:24]     - macd_diff: -0.02
+[2025-08-19 22:49:24]     - bb_hband: 176.46
+[2025-08-19 22:49:24]     - bb_lband: 175.95
+[2025-08-19 22:49:24]     - bb_wband: 0.29
+[2025-08-19 22:49:24]     - sma_20: 176.21
+[2025-08-19 22:49:24]     - rsi_14: 45.78
+[2025-08-19 22:49:24]     - atr_14: 0.14
+[2025-08-19 22:49:24]     - daily_range_pct: 0.00
+[2025-08-19 22:49:24]     - volatility_5_std: 0.09
+[2025-08-19 22:49:24]     - volatility_20_std: 0.13
+[2025-08-19 22:49:24]     - year: 2025.00
+[2025-08-19 22:49:24]     - month: 8.00
+[2025-08-19 22:49:24]     - dayofweek: 1.00
+[2025-08-19 22:49:24]     - lag_1_close_return: 0.02
+[2025-08-19 22:49:24]     - lag_5_close_return: -0.08
+[2025-08-19 22:49:24]     - lag_20_close_return: -0.14
+[2025-08-19 22:49:24]     - gap_open_close_prev_pct: 0.02
+[2025-08-19 22:49:24]     - volume: 1.00
+[2025-08-19 22:49:24]     - volume_change_pct: 1.00
+[2025-08-19 22:49:24]     - high_low_spread: 0.00
+[2025-08-19 22:49:24]     - open_close_spread: 0.00
+[2025-08-19 22:49:24]     - momentum_10d: -0.14
+[2025-08-19 22:49:25]   - Model does not recommend buying at the moment. Prediction: -1
+[2025-08-19 22:49:25]   - Forced trade not initiated yet, waiting for 3:50 PM or a natural buy signal.
+[2025-08-19 22:52:25] ⚙️ Checking the market...
+[2025-08-19 22:52:26]   - Current price: $175.94
+[2025-08-19 22:52:26]   - Features for analysis:
+[2025-08-19 22:52:26]     - macd_line: -0.05
+[2025-08-19 22:52:26]     - macd_signal: -0.02
+[2025-08-19 22:52:26]     - macd_diff: -0.03
+[2025-08-19 22:52:26]     - bb_hband: 176.43
+[2025-08-19 22:52:26]     - bb_lband: 175.88
+[2025-08-19 22:52:26]     - bb_wband: 0.31
+[2025-08-19 22:52:26]     - sma_20: 176.15
+[2025-08-19 22:52:26]     - rsi_14: 40.94
+[2025-08-19 22:52:26]     - atr_14: 0.15
+[2025-08-19 22:52:26]     - daily_range_pct: 0.00
+[2025-08-19 22:52:26]     - volatility_5_std: 0.09
+[2025-08-19 22:52:26]     - volatility_20_std: 0.14
+[2025-08-19 22:52:26]     - year: 2025.00
+[2025-08-19 22:52:26]     - month: 8.00
+[2025-08-19 22:52:26]     - dayofweek: 1.00
+[2025-08-19 22:52:26]     - lag_1_close_return: -0.01
+[2025-08-19 22:52:26]     - lag_5_close_return: -0.09
+[2025-08-19 22:52:26]     - lag_20_close_return: -0.20
+[2025-08-19 22:52:26]     - gap_open_close_prev_pct: -0.01
+[2025-08-19 22:52:26]     - volume: 1.00
+[2025-08-19 22:52:26]     - volume_change_pct: 1.00
+[2025-08-19 22:52:26]     - high_low_spread: 0.00
+[2025-08-19 22:52:26]     - open_close_spread: 0.00
+[2025-08-19 22:52:26]     - momentum_10d: -0.06
+[2025-08-19 22:52:26] ✅ Prediction is BUY. Checking risk management...
+[2025-08-19 22:52:26] ❌ A critical error occurred in the trading loop: insufficient buying power
+[2025-08-19 22:55:26] ⚙️ Checking the market...
+[2025-08-19 22:55:27]   - Current price: $175.73
+[2025-08-19 22:55:27]   - Features for analysis:
+[2025-08-19 22:55:27]     - macd_line: -0.10
+[2025-08-19 22:55:27]     - macd_signal: -0.05
+[2025-08-19 22:55:27]     - macd_diff: -0.05
+[2025-08-19 22:55:27]     - bb_hband: 176.46
+[2025-08-19 22:55:27]     - bb_lband: 175.69
+[2025-08-19 22:55:27]     - bb_wband: 0.44
+[2025-08-19 22:55:27]     - sma_20: 176.08
+[2025-08-19 22:55:27]     - rsi_14: 36.61
+[2025-08-19 22:55:27]     - atr_14: 0.16
+[2025-08-19 22:55:27]     - daily_range_pct: 0.00
+[2025-08-19 22:55:27]     - volatility_5_std: 0.14
+[2025-08-19 22:55:27]     - volatility_20_std: 0.20
+[2025-08-19 22:55:27]     - year: 2025.00
+[2025-08-19 22:55:27]     - month: 8.00
+[2025-08-19 22:55:27]     - dayofweek: 1.00
+[2025-08-19 22:55:27]     - lag_1_close_return: 0.05
+[2025-08-19 22:55:27]     - lag_5_close_return: -0.14
+[2025-08-19 22:55:27]     - lag_20_close_return: -0.35
+[2025-08-19 22:55:27]     - gap_open_close_prev_pct: 0.05
+[2025-08-19 22:55:27]     - volume: 1.00
+[2025-08-19 22:55:27]     - volume_change_pct: 1.00
+[2025-08-19 22:55:27]     - high_low_spread: 0.00
+[2025-08-19 22:55:27]     - open_close_spread: 0.00
+[2025-08-19 22:55:27]     - momentum_10d: -0.47
+[2025-08-19 22:55:28] ✅ Prediction is BUY. Checking risk management...
+[2025-08-19 22:55:28] ❌ A critical error occurred in the trading loop: insufficient buying power
+[2025-08-19 22:58:28] ⚙️ Checking the market...
+[2025-08-19 22:58:29]   - Current price: $175.79
+[2025-08-19 22:58:29]   - Features for analysis:
+[2025-08-19 22:58:29]     - macd_line: -0.11
+[2025-08-19 22:58:29]     - macd_signal: -0.08
+[2025-08-19 22:58:29]     - macd_diff: -0.03
+[2025-08-19 22:58:29]     - bb_hband: 176.35
+[2025-08-19 22:58:29]     - bb_lband: 175.64
+[2025-08-19 22:58:29]     - bb_wband: 0.40
+[2025-08-19 22:58:29]     - sma_20: 175.99
+[2025-08-19 22:58:29]     - rsi_14: 40.42
+[2025-08-19 22:58:29]     - atr_14: 0.16
+[2025-08-19 22:58:29]     - daily_range_pct: 0.00
+[2025-08-19 22:58:29]     - volatility_5_std: 0.06
+[2025-08-19 22:58:29]     - volatility_20_std: 0.18
+[2025-08-19 22:58:29]     - year: 2025.00
+[2025-08-19 22:58:29]     - month: 8.00
+[2025-08-19 22:58:29]     - dayofweek: 1.00
+[2025-08-19 22:58:29]     - lag_1_close_return: 0.03
+[2025-08-19 22:58:29]     - lag_5_close_return: -0.02
+[2025-08-19 22:58:29]     - lag_20_close_return: -0.27
+[2025-08-19 22:58:29]     - gap_open_close_prev_pct: 0.03
+[2025-08-19 22:58:29]     - volume: 1.00
+[2025-08-19 22:58:29]     - volume_change_pct: 1.00
+[2025-08-19 22:58:29]     - high_low_spread: 0.00
+[2025-08-19 22:58:29]     - open_close_spread: 0.00
+[2025-08-19 22:58:29]     - momentum_10d: -0.26
+[2025-08-19 22:58:29] ✅ Prediction is BUY. Checking risk management...
+[2025-08-19 22:58:29] ❌ A critical error occurred in the trading loop: insufficient buying power
+[2025-08-19 23:01:29] ⚙️ Checking the market...
+[2025-08-19 23:01:29]   - Market is currently closed. Will re-check at the next scheduled time.
+[2025-08-19 23:02:29] ⚙️ Checking the market...
+[2025-08-19 23:02:29]   - Market is currently closed. Will re-check at the next scheduled time.
+[2025-08-19 23:03:29] ⚙️ Checking the market...
+[2025-08-19 23:03:29]   - Market is currently closed. Will re-check at the next scheduled time.
+[2025-08-19 23:03:41] --- Automated trading system stopped ---
