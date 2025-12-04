@@ -1,15 +1,26 @@
 """
 WSGI config for trading_backend project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/4.2/howto/deployment/wsgi/
+... (باقي التعليقات)
 """
 
 import os
+import sys # 👈 إضافة استيراد sys
+import pathlib # 👈 إضافة استيراد pathlib (أكثر حداثة)
 
 from django.core.wsgi import get_wsgi_application
+
+
+# 🚨 الأسطر الجديدة: إضافة مسار جذر المشروع إلى مسار بايثون 🚨
+
+# تحديد مسار المجلد الحالي (حيث يوجد wsgi.py)
+current_path = pathlib.Path(__file__).parent.resolve()
+
+# إضافة المجلد الرئيسي للمشروع (الذي يحتوي على مجلد trading_backend)
+# هذا يعالج مشكلة الهيكل المتداخل
+sys.path.append(str(current_path.parent)) 
+
+# -----------------------------------------------------------------
+
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'trading_backend.settings')
 
